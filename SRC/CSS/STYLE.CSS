@@ -26,7 +26,6 @@ h5 {font-size: 1.333rem; /* 21.28px */}
 small {font-size: 0.750rem; /* 12px */}
 
 /*Colors*/
-/* Estilos por defecto (tema claro) */
 :root {
     --text: #000000;
     --background: #ffffff;
@@ -48,7 +47,6 @@ body{
     text-align: center;
 }
 
-/* Estilos para el contenedor principal */
 .display-container {
   color: #000000;
   width: 300px;
@@ -58,7 +56,6 @@ body{
   overflow: hidden;
 }
 
-/* Estilos para el display de entrada */
 #input-display {
   color: #000000;
   background-color: #f2f2f2;
@@ -69,7 +66,6 @@ body{
   white-space: nowrap;
 }
 
-/* Estilos para el display de resultado */
 #result-display {
   color: #000000;
   background-color: #d9d9d9;
@@ -105,16 +101,14 @@ body{
 }
 
 .equal-div {
-  grid-column: span 2; /* Ocupa dos columnas */
+  grid-column: span 2; 
 }
-
-/* Agrega estilos para hover o cualquier animación que desees */
 .num-div:hover, .op-div:hover, .equal-div:hover {
   background-color: var(--accent);
   color: var(--background);
 }
 .num-div.clicked, .op-div.clicked, .equal-div.clicked {
-  background-color: #f44336; /* Red */
+  background-color: #f44336; 
   color: black;
 }
 
@@ -122,14 +116,14 @@ body{
 #btnEliminar {
   margin-top: 10px;
   padding: 10px;
-  background-color: #dc3545; /* Rojo */
+  background-color: #dc3545; 
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 #btnEliminar:hover {
-  background-color: #c82333; /* Rojo oscuro al pasar el ratón */
+  background-color: #c82333; 
 }
 
 footer {
